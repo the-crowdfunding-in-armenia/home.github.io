@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        body{
+            font-family: arial;
+        }
+        table{
+            border-collapse: collapse;
+            width:500px;
+            height:600px;
+            color:rgb(255, 255, 255);
+            border: red;
+        }
+        tr {
+            text-align: center;
+        }
+        .title{
+            text-align: center;
+            background-color: orange;
+            color:white;
+            font-size: 50px;
+        }
+        #cocacola{
+            display: flex;
+            flex-direction: row;
+            background-color: khaki;
+        }
+        img{
+            width:400px;
+            height:410px;
+        }
+        #qanak{
+            width:200px;
+            height:600px;
+            border: 1px solid red;
+            background-color: khaki;
+            color:rgb(255, 255, 255);
+        }
+        label{
+            font-size: 35px;
+            color: white;
+        }
+        button{
+            color:white;
+            background-color: khaki;
+        }
+        button:hover{
+            background-color: rgb(252, 227, 0);
+        }
+        
+        html body div .home{
+            font-size: 25px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <span class="home"><a href="index.html">Home</a></span>
+        <span class="title1">Home||Coca Cola Classic</span>
+    </div>
+    <div id="cocacola">
+        <img src="https://www.shutterstock.com/shutterstock/videos/1053976388/thumb/7.jpg?ip=x480">
+        <table border="1px">
+            <tbody>
+                <tr>
+                    <th>Litr</th>
+                    <th>AMD</th>
+                    
+                </tr>
+                <tr>
+                    <td>1Litr</td>
+                    <td>450AMD</td>
+                </tr>
+                <tr>
+                    <td>0.5Litr</td>
+                    <td>320AMD</td>
+                </tr>
+                <tr>
+                    <td>0.25Litr</td>
+                    <td>250AMD</td>
+                </tr>
+            </tbody>
+        </table>
+        <label><input type="checkbox">0.25Litr</label>
+        <label><input type="checkbox">0.5Litr</label>
+        <label><input type="checkbox">1litr</label><br>
+        <input type="number" placeholder="qanak" id="qanak">
+        <button>Buy now</button>
+    </div>
+</html>

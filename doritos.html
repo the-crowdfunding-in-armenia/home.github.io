@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        body{
+            font-family: arial;
+        }
+        table{
+            border-collapse: collapse;
+            width:500px;
+            height:600px;
+            color:rgb(255, 255, 255);
+            border: red;
+        }
+        tr {
+            text-align: center;
+        }
+        .title{
+            text-align: center;
+            background-color: orange;
+            color:white;
+            font-size: 50px;
+        }
+        #cocacola{
+            display: flex;
+            flex-direction: row;
+            background-color: khaki;
+        }
+        img{
+            width:400px;
+            height:600px;
+        }
+        #qanak{
+            width:200px;
+            height:600px;
+            border: 1px solid red;
+            background-color: khaki;
+            color:rgb(255, 255, 255);
+        }
+        label{
+            font-size: 20px;
+            color: white;
+        }
+        button{
+            color:white;
+            background-color: khaki;
+        }
+        button:hover{
+            background-color: rgb(252, 227, 0);
+        }
+        
+        html body div .home{
+            font-size: 25px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <span class="home"><a href="index.html">Home</a></span>
+        <span class="title1">Home||Doritos</span>
+    </div>
+    <div id="cocacola">
+        <img src="https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2022/11/spicy-nacho-doritos-103122.jpg">
+        <table border="1px">
+            <tbody>
+                <tr>
+                    <th>Size</th>
+                    <th>AMD</th>
+                    
+                </tr>
+                <tr>
+                    <td>big</td>
+                    <td>600AMD</td>
+                </tr>
+                <tr>
+                    <td>Midle</td>
+                    <td>550AMD</td>
+                </tr>
+                <tr>
+                    <td>Small</td>
+                    <td>320AMD</td>
+                </tr>
+            </tbody>
+        </table>
+        <label><input type="checkbox">big</label>
+        <label><input type="checkbox">small</label>
+        <label><input type="checkbox">midle</label><br>
+        <label><input type="checkbox">Chees</label>
+        <label><input type="checkbox">Barbecuer</label>
+        <label><input type="checkbox">Chili</label><br>
+        <input type="number" placeholder="qanak" id="qanak">
+        <button>Buy now</button>
+    </div>
+</html>
